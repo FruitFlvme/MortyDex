@@ -29,9 +29,13 @@ MortyDex — Android-приложение на Jetpack Compose, которое �
 Проект реализован по **чистой архитектуре** (Clean Architecture):
 
 app/
+
 ├── presentation/ // UI: Compose, ViewModel
+
 ├── domain/ // UseCase, Repository interface, модели
+
 ├── data/ // Репозитории, DTO, Room, Retrofit, Paging
+
 ├── core/ // Общие утилиты, конфигурации
 
 ## 🔧 Технологии
